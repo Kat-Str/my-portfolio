@@ -1,27 +1,56 @@
 :root {
-    --primary-color: #f5ebe0;
-    --secondary-color: #a06cd5;
+  --primary-color: #f5ebe0;
+  --secondary-color: #a06cd5;
 }
 button {
-    background: var(--primary-color);
+  background: var(--primary-color);
 }
 .border-radius {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 body {
-    height: 100vh;
-    background: var(--primary-color);
+  height: 100vh;
+  background: var(--primary-color);
 }
-.contact-icon i{
-    font-size: 4em;
+.contact-icon i {
+  font-size: 4em;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .contact-me-heading {
-    font-size: 4em;
+  font-size: 4em;
 }
 .avatar-img {
-    border-radius: 50%;
-    width: 300px;
+  border-radius: 50%;
+  width: 300px;
+}
+
+/* buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #333;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all 0.35s;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  border-color: #333;
+  background: transparent;
+  color: #333;
+}
+
+.button a {
+  color: var(--primary-color);
+}
+.button a:hover {
+  color: #333;
 }
