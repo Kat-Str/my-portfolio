@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #f5ebe0;
+    --secondary-color: #a06cd5;
+}
+button {
+    background: var(--primary-color);
+}
+.border-radius {
+    border-radius: 10px;
+}
+body {
+    height: 100vh;
+    background: var(--primary-color);
+}
+.contact-icon i{
+    font-size: 4em;
+}
+a {
+    text-decoration: none;
+}
+.contact-me-heading {
+    font-size: 4em;
+}
+.avatar-img {
+    border-radius: 50%;
+    width: 300px;
+}
