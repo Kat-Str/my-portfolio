@@ -2,16 +2,20 @@
   --primary-color: #f5ebe0;
   --secondary-color: #a06cd5;
 }
-button {
-  background: var(--primary-color);
-}
-.border-radius {
-  border-radius: 10px;
-}
+
 body {
   height: 100vh;
   background: var(--primary-color);
 }
+
+footer {
+  margin-top: 60px;
+}
+
+.border-radius {
+  border-radius: 10px;
+}
+
 .contact-icon i {
   font-size: 4em;
 }
@@ -25,6 +29,26 @@ a {
   border-radius: 50%;
   width: 300px;
 }
+.projects-heading {
+  font-size: 4em;
+  padding-bottom: 1em;
+}
+.project-description h3 {
+  font-size: 2.5em;
+}
+.project-row {
+  display: flex;
+  justify-content: center;
+}
+.project-image {
+  transition: all 0.3s ease-in-out;
+}
+.project-image:hover {
+  scale: 1.07;
+}
+.name {
+  font-size: 3.6em;
+}
 
 /* buttons */
 .button {
@@ -37,7 +61,6 @@ a {
   text-transform: uppercase;
   letter-spacing: 1px;
   border: 3px solid #333;
-  transition: all 0.35s;
   position: relative;
   transition: all 0.3s ease-in-out;
 }
