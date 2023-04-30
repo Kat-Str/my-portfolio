@@ -50,6 +50,14 @@ a {
   font-size: 3.6em;
 }
 
+.nav-bg {
+  background-color: #e0cec1;
+}
+
+.active-link {
+  font-weight: bold;
+}
+
 /* buttons */
 .button {
   display: inline-block;
