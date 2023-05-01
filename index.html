@@ -27,38 +27,79 @@
     <link rel="stylesheet" href="/CSS/style.css" />
   </head>
   <body>
+    <nav class="index-navbar navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-4" href="/"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link mx-5 my-1 active-link" href="/" title="Homepage"
+              >Homepage</a
+            >
+            <a class="nav-link mx-5 my-1" href="/projects.html" title="Projects"
+              >Projects</a
+            >
+            <a class="nav-link mx-5 my-1" href="/about.html" title="About me"
+              >About me</a
+            >
+            <a
+              class="nav-link mx-5 my-1"
+              href="/contact.html"
+              title="Contact me"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="container">
       <div class="row">
-        <div class="col-5">
+        <div class="index-avatar-div col-md-5 order-2 order-md-1">
           <img
-            class="avatar-img img-fluid float-end m-5"
+            class="index-avatar avatar-img img-fluid float-end my-5 mx-md-5"
             src="/media/avatar.png"
             alt="Avatar"
           />
         </div>
-        <div class="col-7 my-5">
-          <h2>Hi, I am</h2>
+        <div class="index-intro order-1 order-md-2 col-md-7 my-md-5">
+          <h2 class="text-muted">Hi, I am</h2>
           <h1 class="name">Katarzyna Strzałek</h1>
-          <h2>front-end developer based in Europe</h2>
+          <h2 class="text-muted">
+            front-end developer <br />
+            based in Europe
+          </h2>
         </div>
       </div>
     </div>
 
-    <div class="d-flex justify-content-center m-3">
+    <div class="index-nav-buttons d-flex justify-content-center m-md-3">
       <a href="/projects.html"
-        ><button class="border-radius button m-5">Projects</button></a
+        ><button class="border-radius button m-md-5">Projects</button></a
       >
 
-      <a href="/about.html"
-        ><button class="border-radius button m-5">About me</button></a
+      <a href="/about.ht-mdl"
+        ><button class="border-radius button m-md-5">About me</button></a
       >
 
       <a href="/contact.html"
-        ><button class="border-radius button m-5">Contact</button></a
+        ><button class="border-radius button m-md-5">Contact</button></a
       >
     </div>
 
-    <footer class="text-center">
+    <footer class="index-footer text-center">
       <a href="https://github.com/Kat-Str/my-portfolio" target="_blank"
         >Open-source code </a
       >by Katarzyna Strzałek
