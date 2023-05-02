@@ -44,6 +44,20 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .project-description {
+    width: 90vw;
+  }
+  .project-image {
+    margin-bottom: 20px;
+  }
+  .project-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 body {
   height: 100vh;
   background: var(--primary-color);
