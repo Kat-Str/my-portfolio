@@ -8,7 +8,8 @@
     text-align: center;
   }
 
-  .index-avatar-div {
+  .index-avatar-div,
+  .about-avatar-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +24,12 @@
   .name {
     font-size: 2.3rem;
   }
+  .contact-me-heading {
+    font-size: 2.5rem;
+  }
+  .about-paragraph {
+    width: 90vw;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -31,6 +38,9 @@
   }
   .name {
     font-size: 3.6rem;
+  }
+  .contact-me-heading {
+    font-size: 4rem;
   }
 }
 
@@ -57,9 +67,7 @@ footer {
 a {
   text-decoration: none;
 }
-.contact-me-heading {
-  font-size: 4em;
-}
+
 .avatar-img {
   border-radius: 50%;
   width: 300px;
